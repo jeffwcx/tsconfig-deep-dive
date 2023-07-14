@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ES2021",
+    "module": "node16",
+    // "moduleResolution": "node16",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "./dist"
+  },
+  "include": ["./*.ts"],
+}

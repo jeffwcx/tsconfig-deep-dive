@@ -1,0 +1,21 @@
+{
+  "name": "declaration-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "tsc --project tsconfig.json"
+  },
+  "exports": {
+    ".": {
+      "dev": "./index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

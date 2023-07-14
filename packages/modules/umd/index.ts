@@ -1,0 +1,2 @@
+
+mathL.isPrime(2);

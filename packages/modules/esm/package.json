@@ -1,0 +1,14 @@
+{
+  "name": "modules-es",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "build:cjs": "tsc --project ./tsconfig.cjs.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

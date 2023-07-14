@@ -1,0 +1,15 @@
+{
+  "name": "type-checking",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "check:strict": "tsc ./strict.ts --strictFunctionTypes false --noEmit",
+    "check:noUnusedLocals": "tsc ./noUnusedLocals.ts --strict --noEmit --noUnusedLocals",
+    "check:noUnusedParameters": "tsc ./noUnusedParameters.ts --strict --noEmit --noUnusedParameters",
+    "check:noImplicitReturns": "tsc ./noImplicitReturns.ts --strict --noEmit --noImplicitReturns",
+    "check:noFallthroughCasesInSwitch": "tsc ./noFallthroughCasesInSwitch.ts --strict --noEmit --noFallthroughCasesInSwitch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

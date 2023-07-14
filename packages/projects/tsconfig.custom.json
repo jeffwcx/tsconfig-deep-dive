@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "node16",
+    "declaration": false,
+    "incremental": false,
+    "outDir": "./dist-custom"
+  },
+  "include": ["./*.ts"],
+}

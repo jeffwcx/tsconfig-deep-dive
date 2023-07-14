@@ -1,0 +1,24 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "node16",
+    "declaration": true,
+    "declarationMap": true,
+    "isolatedModules": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "./dist"
+  },
+  "include": ["./*.ts", "./*.mts", "./*.js"]
+}

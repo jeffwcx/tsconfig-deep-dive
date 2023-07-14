@@ -1,0 +1,13 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "build:custom": "tsc --project ./tsconfig.custom.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

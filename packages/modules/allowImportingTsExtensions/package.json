@@ -1,0 +1,12 @@
+{
+  "name": "allow-importing-ts-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

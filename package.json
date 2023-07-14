@@ -1,0 +1,15 @@
+{
+  "name": "tsconfig-deep-dive",
+  "version": "0.1.0",
+  "description": "TSConfig Deep Dive",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "jeffwcx",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
